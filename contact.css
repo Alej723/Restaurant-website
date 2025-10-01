@@ -1,0 +1,89 @@
+.navbar {
+  display: flex;
+  align-items: center;       
+  padding: 10px 20px;
+  background-color: #1A0B1C;  
+  flex-wrap: wrap;    
+}
+
+
+.navbar nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #F6836B;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
+}
+
+a{
+    text-decoration: none;
+    color: #F6836B;
+}
+
+#logo{
+    height: 150px;
+    width: 400px;
+}
+body{
+    background-color: #1A0B1C ;
+}
+
+* {box-sizing:border-box}
+
+
+.hero img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+    
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    color: #F6836B;     
+}
+.contact-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  margin: 20px;
+  flex-wrap: wrap;
+}
+
+.map-container {
+  flex: 2;
+  min-width: 400px;  
+}
+
+.map-container iframe {
+  width: 100%;        
+  height: 600px;     
+  border: 0;
+  border-radius: 12px;
+}
+
+.info-container {
+  flex: 1;          
+  min-width: 250px;
+  color: #F6836B;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.info-container a {
+  color: #F6836B;
+  text-decoration: none;
+}
+
+.info-container a:hover {
+  text-decoration: underline;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    color: #F6836B;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
