@@ -38,7 +38,7 @@ tr:hover {
   background-color: #1A0B1C;  
 }
 #logo{
-    height: 150px;
+    height: auto;
     width: 400px;
 }
 .navbar nav a {
