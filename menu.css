@@ -36,6 +36,7 @@ tr:hover {
   align-items: center;       
   padding: 10px 20px;
   background-color: #1A0B1C;  
+    flex-wrap: wrap;    
 }
 #logo{
     height: auto;
@@ -48,6 +49,7 @@ tr:hover {
   font-weight: bold;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: larger;
+  flex-wrap: wrap;    
 }
 
 body{
