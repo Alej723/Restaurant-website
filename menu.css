@@ -63,7 +63,8 @@ body{
 
     
 }
-    .cart-btn {
+
+.cart-btn {
         background-color: #F6836B;
         color: white;
         padding: 8px 16px;
@@ -72,10 +73,10 @@ body{
         cursor: pointer;
         font-size: 14px;
     }
-    .cart-btn:hover {
+.cart-btn:hover {
         background-color: #45a049;
     }
-    .cart-container {
+.cart-container {
         position: fixed;
         top: 80px;
         right: 20px;
@@ -86,14 +87,14 @@ body{
         max-width: 300px;
         box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     }
-    .cart-item {
+.cart-item {
         display: flex;
         justify-content: space-between;
         margin: 5px 0;
         padding: 5px;
         border-bottom: 1px solid #ddd;
     }
-    .remove-btn {
+.remove-btn {
         background-color: #f44336;
         color: white;
         border: none;
